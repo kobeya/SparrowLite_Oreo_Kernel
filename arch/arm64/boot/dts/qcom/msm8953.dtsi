@@ -742,8 +742,6 @@
 		pinctrl-1 = <&i2c_1_sleep>;
 		qcom,noise-rjct-scl = <0>;
 		qcom,noise-rjct-sda = <0>;
-		qcom,high-time-clk-div = <90>; /*duty cycle 50+*/
-		qcom,fs-clk-div = <96>;
 		dmas = <&dma_blsp1 4 64 0x20000020 0x20>,
 			<&dma_blsp1 5 32 0x20000020 0x20>;
 		dma-names = "tx", "rx";
