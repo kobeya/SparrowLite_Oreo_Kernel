@@ -236,6 +236,8 @@
 };
 
 &i2c_1 {
+	qcom,high-time-clk-div = <90>; /*duty cycle 50+*/
+	qcom,fs-clk-div = <96>;
 	status = "okay";
 };
 
